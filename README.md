@@ -11,6 +11,18 @@ Original ideas by Chicuelo and brought to life in collaboration with Nick L (c64
 CRT THEME:
 Originally based on the Carbon theme by Eric Hettervik; and then rebuilt by Alphatoanant.
 
+## 📸 Preview
+
+Here are some screenshots of the Violet-Bloom theme in action:
+
+![Screenshot 1](_screenshots/Screenshot_1.png)
+![Screenshot 2](_screenshots/Screenshot_2.png)
+![Screenshot 3](_screenshots/Screenshot_3.png)
+![Screenshot 4](_screenshots/Screenshot_4.png)
+![Screenshot 5](_screenshots/Screenshot_5.png)
+![Screenshot 6](_screenshots/Screenshot_6.png)
+![Screenshot 7](_screenshots/Screenshot_7.png)
+![Screenshot 8](_screenshots/Screenshot_8.png)
 
 
 ---
