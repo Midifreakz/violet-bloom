@@ -1,0 +1,56 @@
+<theme>
+<formatVersion>4</formatVersion>
+<include>./../theme.xml</include>
+
+
+<view name="system">
+    <!-- ✅ Moved the System Logo Image OUTSIDE the text elements -->
+    <image name="system_logo" extra="true">
+      <path>./systemlogo.svg</path>  <!-- Dynamically loads from each system folder -->
+      <tile>false</tile>
+      <origin>0 0</origin>
+      <pos>0.12 0.168</pos>
+      <maxSize>0.4 0.167</maxSize>
+    </image>
+    <image name="console" extra="true">
+        <path>./console_dreamcast.png</path>
+        <tile>false</tile>
+        <origin>0.5 1</origin>
+        <pos>0.62 1.0</pos>
+        <maxSize>0.62 0.62</maxSize>
+    </image>
+
+    <image name="controller" extra="true">
+        <path>./controller_dreamcast.png</path>
+        <tile>false</tile>
+        <origin>0 1</origin>
+        <pos>0.12 0.88</pos>
+        <maxSize>0.20 0.20</maxSize>
+    </image>
+
+  <text name="shortdescription" extra="true">
+   <text>1998  ·  128-bit Console</text>
+  </text>
+
+  <text name="longdescription" extra="true">
+   <text>The underrated and ahead of it's time Dreamcast was Sega's final home console, marking the end of the company's 18 years in the console market. </text>
+  </text>
+ </view>
+
+
+<!-- dreamcast specific fix -->
+
+ <view name="detailed, video, grid">
+
+    <image name="console" extra="true">
+        <maxSize>0.65 0.65</maxSize>
+        <pos>0.79083 0.67729</pos>
+    </image>
+
+    <image name="controller" extra="true">
+        <pos>0.7 0.552</pos>
+        <maxSize>0.14 0.14</maxSize>
+    </image>
+
+ </view>
+</theme>

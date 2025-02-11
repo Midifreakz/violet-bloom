@@ -1,0 +1,331 @@
+<theme>
+<formatVersion>4</formatVersion>
+
+
+<!-- Systems view -->
+
+<view name="system">
+
+    <image name="background" extra="true">
+        <path>./_art/images/unisystem_background.jpg</path>
+        <tile>false</tile>
+        <size>1 1</size>
+        <pos>0 0</pos>
+        <origin>0 0</origin>
+    </image>
+
+    <image name="poster" extra="true">
+        <path>./_art/posters/${system.theme}.jpg</path>
+        <tile>false</tile>
+        <origin>1 0</origin>
+        <pos>1 0</pos>
+        <size>0 1</size>
+    </image>
+
+    <carousel name="systemcarousel">
+        <type>vertical</type>
+        <color>00000000</color>
+        <origin>1 1</origin>
+        <pos>1 1</pos>
+        <size>0.01 0.01</size>
+        <logoScale>1</logoScale>
+        <logoSize>0.01 0.01</logoSize>
+        <maxLogoCount>0</maxLogoCount>
+    </carousel>
+    
+    <text name="shortdescription" extra="true">
+        <fontPath>./_art/fonts/SSTLight.TTF</fontPath>
+        <alignment>left</alignment>
+        <forceUppercase>0</forceUppercase>
+        <fontSize>0.021</fontSize>
+        <color>9b9a9a</color>
+        <origin>0 0</origin>
+        <pos>0.12 0.1055</pos>
+        <size>0.320 0.033</size>
+    </text>
+
+    <text name="systemInfo">
+        <fontPath>./_art/fonts/SSTRg.TTF</fontPath>
+        <alignment>left</alignment>
+        <backgroundColor>00000000</backgroundColor>
+        <forceUppercase>1</forceUppercase>
+        <color>372d5a</color>
+        <origin>0 0</origin>
+        <pos>0.12 0.3611</pos>
+        <size>0.200 0.039</size>
+        <fontSize>0.0315</fontSize>
+    </text>
+    
+    <text name="longdescription" extra="true">
+        <fontPath>./_art/fonts/SSTLight.TTF</fontPath>
+        <alignment>left</alignment>
+        <forceUppercase>0</forceUppercase>
+        <fontSize>0.021</fontSize>
+        <color>8F8F8F</color>
+        <lineSpacing>1.58</lineSpacing>
+        <origin>0 0</origin>
+        <pos>0.12 0.360</pos>
+        <size>0.28 0.20</size>
+    </text>
+
+    <image name="buttonA" extra="true">
+        <path>./_art/var/button.svg</path>
+        <tile>false</tile>
+        <origin>0 0</origin>
+        <pos>0.12 0.565</pos>
+        <size>0 0.044</size>
+    </image>
+
+    <helpsystem name="help">
+        <fontPath>./_art/fonts/SSTRg.TTF</fontPath>
+        <fontSize>0.02</fontSize>
+        <origin>1 1</origin><!--0 0-->
+        <pos>0.12 0</pos> <!--0.0890 0.6283-->
+        <textColor>F8F8F8</textColor>
+        <iconColor>F8F8F8</iconColor>
+    </helpsystem>
+
+</view>
+
+
+
+
+<!-- Game selector > Video View - (All views are the same for now) -->
+
+<view name="detailed, video, grid">
+
+<!-- Background when browsing games-->
+
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <tile>false</tile>
+         <path>./_art/images/video_view_background.jpg</path>
+      </image>
+
+<!-- System Logo -->
+
+<image name="logo">
+    <path>./${system.theme}/systemlogo.svg</path>  <!-- Dynamically loads the correct system logo -->
+    <origin>0 0</origin>
+    <pos>0.12  0.0694444444444444</pos>
+    <maxSize>0.734375 0.0955555555555556</maxSize>
+</image>
+
+
+
+
+<!-- Infopane Data _ Icons for rating / kid / hidden / favorite -->
+
+      <rating name="md_rating">
+         <pos>0.12 0.5888888888888889</pos>
+         <size>0.2515625 0.0277777777777778</size>
+         <filledPath>./_art/images/star_filled.svg</filledPath>
+         <unfilledPath>./_art/images/star_empty.svg</unfilledPath>
+      </rating>
+
+      <image name="md_favorite">
+         <origin>0 0</origin>
+         <pos>0.43515625 0.5888888888888889</pos>
+         <maxSize>0.01796875 0.0277777777777778</maxSize>
+         <path>./_art/images/favorite.svg</path>
+         <color>bba35880</color>
+      </image>
+
+      <image name="md_kidgame">
+         <origin>0 0</origin>
+         <pos>0.4171875 0.5888888888888889</pos>
+         <maxSize>0.0125 0.0277777777777778</maxSize>
+         <path>./_art/images/kid.svg</path>
+         <color>bba35880</color>
+      </image>
+
+      <image name="md_hidden">
+         <origin>0 0</origin>
+         <pos>0.390625 0.5888888888888889</pos>
+         <maxSize>0.02109375 0.0277777777777778</maxSize>
+         <path>./_art/images/hidden.svg</path>
+         <color>bba35880</color>
+      </image>
+
+
+
+<!-- Fonts styling for data-->
+
+      <text name="md_lastplayed,md_players,md_releasedate,md_genre">
+         <color>555555</color>
+         <fontPath>./_art/fonts/SSTLight.TTF</fontPath>
+         <fontSize>0.0222222222222222</fontSize>
+      </text>
+
+<!-- Infopane Slashes And Icons -->
+
+      <image name="md_icon_lastplayed" extra="true">
+         <origin>0 0</origin>
+         <pos>0.12  0.638444444444444</pos>
+         <maxSize>0.037 0.037</maxSize>
+         <path>./_art/images/lastplayed.svg</path>
+      </image>
+
+      <image name="md__icon_players" extra="true">
+         <origin>0 0</origin>
+         <pos>0.12 0.6801111111111111</pos>
+         <maxSize>0.037 0.037</maxSize>
+         <path>./_art/images/players.svg</path>
+      </image>
+
+      <image name="md_icon_releasedate_slash" extra="true">
+         <origin>0 0</origin>
+         <pos>0.16146 0.6861111111111111</pos>
+         <maxSize>0.00703125 0.0277777777777778</maxSize>
+         <path>./_art/images/slash.svg</path>
+      </image>
+
+      <image name="md_icon_genre_slash" extra="true">
+         <origin>0 0</origin>
+         <pos>0.24846 0.6861111111111111</pos>
+         <maxSize>0.00703125 0.0277777777777778</maxSize>
+         <path>./_art/images/slash.svg</path>
+      </image>
+
+      <!-- Infopane Data _ Text -->
+
+      <datetime name="md_lastplayed">
+         <pos>0.146 0.6434444444444444</pos>
+         <size>0.1171875 0.0277777777777778</size>
+      </datetime>
+
+      <text name="md_players">
+         <pos>0.146 0.6861111111111111</pos>
+         <size>0.028125 0.0277777777777778</size>
+      </text>
+
+      <datetime name="md_releasedate">
+         <pos>0.17563 0.6861111111111111</pos>
+         <size>0.07578125 0.0277777777777778</size>
+      </datetime>
+
+      <text name="md_genre">
+         <pos>0.26211 0.6861111111111111</pos>
+         <size>0.118808375 0.0277777777777778</size>
+      </text>
+
+
+
+      <text name="md_description">
+         <pos>0.12 0.7496666666666667</pos>
+         <size>0.2515625 0.1472222222222222</size>
+         <color>999999</color>
+         <fontSize>0.017</fontSize>
+         <fontPath>./_art/fonts/SSTLight.TTF</fontPath>
+      </text>
+
+
+
+
+
+<!-- Game Selector -->
+
+      <textlist name="gamelist">
+         <selectorColor>00000000</selectorColor>
+         <selectedColor>FFFFFF</selectedColor>
+         <primaryColor>FFFFFF30</primaryColor>
+         <secondaryColor>FFFFFF30</secondaryColor>
+         <fontPath>./_art/fonts/SSTRg.TTF</fontPath>
+         <fontSize>0.032</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound>./_art/sounds/select.wav</scrollSound>
+         <pos>0.512875 0.5888888888888889</pos>
+         <size>0.3375 0.3290011666666667</size>
+         <alignment>left</alignment>
+         <lineSpacing>1.4</lineSpacing>  <!-- Decrease to reduce gap -->
+         <horizontalMargin>0.00625</horizontalMargin>
+      </textlist>
+
+
+
+<!-- cover -->
+         <image name="md_thumbnail">
+            <origin>1 1</origin>
+            <pos>0.65 0.54</pos>
+            <maxSize>0.1315625 0.805555555555556</maxSize>
+         </image>
+
+<!-- console -->
+
+    <image name="console" extra="true">
+        <path>./${system.theme}/console_${system.theme}.png</path>
+        <tile>false</tile>
+        <origin>0 1</origin>
+        <pos>0.79583 0.71849</pos>
+        <maxSize>0.7 0.7</maxSize>
+    </image>
+
+
+
+    <image name="controller" extra="true">
+        <path>./${system.theme}/controller_${system.theme}.png</path>
+        <tile>false</tile>
+        <origin>0 1</origin>
+        <pos>0.7 0.562</pos>
+        <maxSize>0.14 0.14</maxSize>
+    </image>
+
+
+
+</view>
+
+
+
+
+
+
+
+
+<!-- VIDEO  -->
+
+<feature supported="video">
+      <view name="video">
+         <image name="crt-bezel" extra="true">
+            <origin>0.5 0.5</origin>
+            <pos>0.245 0.3666666666666667</pos>
+            <maxSize>0.2671875 0.3638888888888889</maxSize>
+            <path>./_art/images/crt-bezel.svg</path>
+         </image>
+         <video name="md_video">
+            <origin>0.5 0.5</origin>
+            <pos>0.245 0.3666666666666667</pos>
+            <maxSize>0.25 0.3333333333333333</maxSize>
+            <delay>0.9</delay>
+            <default>./_art/videos/static.mp4</default>
+            <showSnapshotNoVideo>false</showSnapshotNoVideo>
+            <showSnapshotDelay>false</showSnapshotDelay>
+         </video>
+      </view>
+   </feature>
+
+   <feature supported="z-index">
+      <view name="detailed,video">
+         <image name="crt-bezel" extra="true">
+            <zIndex>100</zIndex>
+         </image>
+         <image name="crt-screen" extra="true">
+            <origin>0.5 0.5</origin>
+            <pos>0.245 0.3666666666666667</pos>
+            <maxSize>0.25 0.3333333333333333</maxSize>
+            <path>./_art/images/crt-screen.svg</path>
+            <zIndex>60</zIndex>
+         </image>
+      </view>
+      <view name="video">
+         <image name="crt-bezel" extra="true">
+            <zIndex>100</zIndex>
+         </image>
+         <video name="md_video">
+            <zIndex>80</zIndex>
+         </video>
+      </view>
+   </feature>
+
+</theme>

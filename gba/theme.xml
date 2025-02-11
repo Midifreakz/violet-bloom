@@ -1,0 +1,49 @@
+<theme>
+<formatVersion>4</formatVersion>
+<include>./../theme.xml</include>
+
+
+<view name="system">
+    <!-- ✅ Moved the System Logo Image OUTSIDE the text elements -->
+    <image name="system_logo" extra="true">
+      <path>./systemlogo.svg</path>  <!-- Dynamically loads from each system folder -->
+      <tile>false</tile>
+      <origin>0 0</origin>
+      <pos>0.12 0.182</pos>
+      <maxSize>0.6 0.14</maxSize>
+    </image>
+    <image name="console" extra="true">
+        <path>./console_gba.png</path>
+        <tile>false</tile>
+        <origin>0.5 1</origin>
+        <pos>0.62 1.0</pos>
+        <maxSize>0.62 0.62</maxSize>
+    </image>
+
+    <image name="controller" extra="true">
+        <path>./controller_gba.png</path>
+        <tile>false</tile>
+        <origin>0 1</origin>
+        <pos>0.12 0.88</pos>
+        <maxSize>0.20 0.20</maxSize>
+    </image>
+  <text name="shortdescription" extra="true">
+   <text>2001  ·  32-bit Handheld Console</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>Successor to the Game Boy Color. Market competitors at the time were the Neo Geo Pocket Color, Wonder Swan, GP32 and the N-Gage.</text>
+  </text>
+ </view>
+
+ <view name="detailed, video, grid">
+
+<!-- GBA Specific Device Fix-->
+
+
+    <image name="console" extra="true">
+        <pos>0.80583 0.67249</pos>
+        <maxSize>0.55 0.55</maxSize>
+    </image>
+
+ </view>
+</theme>

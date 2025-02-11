@@ -1,0 +1,37 @@
+<theme>
+<formatVersion>4</formatVersion>
+<include>./../theme.xml</include>
+
+
+<view name="system">
+    <!-- ✅ Moved the System Logo Image OUTSIDE the text elements -->
+    <image name="system_logo" extra="true">
+      <path>./systemlogo.svg</path>  <!-- Dynamically loads from each system folder -->
+      <tile>false</tile>
+      <origin>0 0</origin>
+      <pos>0.12 0.148</pos>
+      <maxSize>0.6 0.20</maxSize>
+    </image>
+    <image name="console" extra="true">
+        <path>./console_megacd.png</path>
+        <tile>false</tile>
+        <origin>0.5 1</origin>
+        <pos>0.62 1.0</pos>
+        <maxSize>0.62 0.62</maxSize>
+    </image>
+
+    <image name="controller" extra="true">
+        <path>./controller_megacd.png</path>
+        <tile>false</tile>
+        <origin>0 1</origin>
+        <pos>0.12 0.88</pos>
+        <maxSize>0.20 0.20</maxSize>
+    </image>
+  <text name="shortdescription" extra="true">
+   <text>1991  ·  16-bit Console</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>CD-ROM add-on to the Megadrive, it launched many FMV games, including the infamous Night Trap, which led to the creation of the ESRB</text>
+  </text>
+ </view>
+</theme>
