@@ -1,6 +1,3 @@
-
-
-
 ## VIOLET BLOOM theme by Midifreakz.
 
 Combined elements of the Epic Noir theme and the CRT theme to create a truely modern and aestheticly pleasing experience across Emulation Station.
