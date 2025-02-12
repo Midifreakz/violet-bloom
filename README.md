@@ -55,6 +55,13 @@ You can then select it in the Emulation Station UI.
 * Suggestions are welcome
 
 
+
+---
+
+#### Artwork Credits
+
+Artwork created by Midifreakz with Freepik.com assets and original device photography.
+
 #### License
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). \
@@ -73,11 +80,6 @@ REQUIREMENTS:
 PROHIBITED:
 - Commercial distribution
 
----
-
-#### Artwork Credits
-
-Artwork created by Midifreakz with Freepik.com assets and original device photography.
 
 
 
