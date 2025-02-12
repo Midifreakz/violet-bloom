@@ -10,7 +10,7 @@
       <tile>false</tile>
       <origin>0 0</origin>
       <pos>0.12 0.148</pos>
-      <maxSize>0.6 0.20</maxSize>
+      <maxSize>0.4 0.179</maxSize>
     </image>
     
     <image name="console" extra="true">
@@ -48,7 +48,7 @@
 
 
     <textlist name="gamelist">
-     <pos>0.512875 0.1526666666666667</pos>
+     <pos>0.5110 0.1726666666666667</pos>
      <size>0.3375 0.7690011666666667</size>
     </textlist>
 

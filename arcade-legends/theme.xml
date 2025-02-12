@@ -11,7 +11,7 @@
       <tile>false</tile>
       <origin>0 0</origin>
       <pos>0.12 0.148</pos>
-      <maxSize>0.6 0.20</maxSize>
+      <maxSize>0.4 0.179</maxSize>
     </image>
 
     <image name="console" extra="true">

@@ -45,10 +45,10 @@
     </text>
 
     <text name="systemInfo">
-        <fontPath>./_art/fonts/SSTRg.TTF</fontPath>
+        <fontPath>./_art/fonts/SSTLight.TTF</fontPath>
         <alignment>left</alignment>
         <backgroundColor>00000000</backgroundColor>
-        <forceUppercase>1</forceUppercase>
+        <forceUppercase>0</forceUppercase>
         <color>372d5a</color>
         <origin>0 0</origin>
         <pos>0.12 0.3611</pos>
@@ -104,14 +104,26 @@
          <path>./_art/images/video_view_background.jpg</path>
       </image>
 
-<!-- System Logo -->
+<!-- System Logo & Game Name -->
 
-<image name="logo">
-    <path>./${system.theme}/systemlogo.svg</path>  <!-- Dynamically loads the correct system logo -->
-    <origin>0 0</origin>
-    <pos>0.12  0.0694444444444444</pos>
-    <maxSize>0.734375 0.0955555555555556</maxSize>
-</image>
+      <image name="logo">
+         <path>./${system.theme}/systemlogo.svg</path>  <!-- Dynamically system logo -->
+         <origin>0 0</origin>
+         <pos>0.517 0.0694444444444444</pos>
+         <maxSize>0.734375 0.0955555555555556</maxSize>
+      </image>
+
+      <text name="md_name">
+         <origin>0 0</origin>
+         <pos>0.12 0.099994444444444</pos>
+         <size>0.26 0.0322222222222222</size> <!-- Width adjusted to not exceed 12% margin on the right -->
+         <fontPath>./_art/fonts/SSTMedium.TTF</fontPath>
+         <fontSize>0.0362222222222222</fontSize>
+         <color>FFFFFF</color>
+         <alignment>left</alignment>
+         <lineSpacing>1.2</lineSpacing>
+      </text>
+
 
 
 
@@ -153,7 +165,7 @@
 
 <!-- Fonts styling for data-->
 
-      <text name="md_lastplayed,md_players,md_releasedate,md_genre">
+      <text name=",md_lastplayed,md_players,md_releasedate,md_genre">
          <color>555555</color>
          <fontPath>./_art/fonts/SSTLight.TTF</fontPath>
          <fontSize>0.0222222222222222</fontSize>
@@ -161,9 +173,10 @@
 
 <!-- Infopane Slashes And Icons -->
 
+
       <image name="md_icon_lastplayed" extra="true">
          <origin>0 0</origin>
-         <pos>0.12  0.638444444444444</pos>
+         <pos>0.119  0.638444444444444</pos>
          <maxSize>0.037 0.037</maxSize>
          <path>./_art/images/lastplayed.svg</path>
       </image>
@@ -229,11 +242,11 @@
 
       <textlist name="gamelist">
          <selectorColor>00000000</selectorColor>
-         <selectedColor>FFFFFF</selectedColor>
-         <primaryColor>FFFFFF30</primaryColor>
+         <selectedColor>9b9a9a</selectedColor>
+         <primaryColor>FFFFFF35</primaryColor>
          <secondaryColor>FFFFFF30</secondaryColor>
-         <fontPath>./_art/fonts/SSTRg.TTF</fontPath>
-         <fontSize>0.032</fontSize>
+         <fontPath>./_art/fonts/SSTLight.TTF</fontPath>
+         <fontSize>0.026</fontSize>
          <forceUppercase>0</forceUppercase>
          <scrollSound>./_art/sounds/select.wav</scrollSound>
          <pos>0.512875 0.5888888888888889</pos>
