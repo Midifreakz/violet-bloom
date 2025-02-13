@@ -29,7 +29,9 @@ Originally based on the Carbon theme by Eric Hettervik; and then rebuilt by Alph
 
 Run this command on your RetroPie system to download the Violet-Bloom theme:
 
+```bash
 git clone https://github.com/Midifreakz/violet-bloom.git /etc/emulationstation/themes/violet-bloom/
+```
 
 ✅ This will:
 
